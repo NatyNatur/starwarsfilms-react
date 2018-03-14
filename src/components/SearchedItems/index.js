@@ -1,0 +1,1 @@
+// Lado derecho de la pantalla, contenedor de las 'tarjetas' de películas
