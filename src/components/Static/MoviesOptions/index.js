@@ -7,8 +7,14 @@ class MovieOptions extends Component {
     render() {
         return (
             <div>
-                <a>Acá van los botones</a>
-                <Button color="danger">Danger!</Button>
+                <Button color="info" size="lg" block>A new Hope</Button>{' '}
+                <Button color="info" size="lg" block>The Empire Strikes Back</Button>{' '}
+                <Button color="info" size="lg" block>Return of the Jedi</Button>{' '}
+                <Button color="info" size="lg" block>The Phantom Menace</Button>{' '}
+                <Button color="info" size="lg" block>Attack of the Clones</Button>{' '}
+                <Button color="info" size="lg" block>Revenge of the Sith</Button>{' '}
+                <Button color="info"size="lg" block>info</Button>{' '}
+                
             </div>
         )
     }
