@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Container, Row, Col } from 'reactstrap';
+import StaticPage from './components/Static';
+import SearchedItems from './components/SearchedItems';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <Container>
+        <Row>
+          <Col xs="4">
+          <StaticPage> </StaticPage>
+          </Col>
+          <Col xs="8">
+          <SearchedItems> </SearchedItems>
+          </Col>
+        </Row>
+        </Container>
       </div>
     );
   }
