@@ -1,18 +1,23 @@
 // Lado izquierdo de la pantalla, muestra títulos y botonés de las películas
 import React, { Component }from 'react';
-import PageTitle from './PageTitle';
+
 import MoviesOptions from './MoviesOptions';
+import Logo from '../Static/PageTitle/Logo';
 
 
 class StaticPage extends Component {
     render() {
-        return (
-            <div>
-                <p>Esta es la página estática</p>
-                <PageTitle></PageTitle>
-                <MoviesOptions></MoviesOptions>
-            </div>
-        )
+        return(
+            <div className="container">
+                       
+                <header className="header">
+                  <Logo />
+                </header>
+                <section className="content">              
+              <MoviesOptions></MoviesOptions>
+                </section>
+              </div>
+      )
     }
 }
 
