@@ -1,7 +1,7 @@
 {
   "name": "starwarsfilms-react",
   "version": "0.1.0",
-  "homepage": "https://github.com/pinalef/starwarsfilms-react#readme",
+  "homepage": "http://github.com/pinalef/starwarsfilms-react#readme",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.0.0",
