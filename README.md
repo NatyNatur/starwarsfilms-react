@@ -15,10 +15,7 @@ Este es un sencillo proyecto creado con React que utiliza la api de Star Wars pa
 ### Desde tu computador
 1. Clonar este repositorio.
 2. Posicionarte dentro de la carpeta y en tu terminal digitar npm install.
-3. Iniciar localhost con nopm start. 
-
-### Desde el navegador
-Accediendo al sitio web: 
+3. Iniciar localhost con npm start. 
 
 ## Autores
 
