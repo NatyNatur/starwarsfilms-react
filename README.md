@@ -2,6 +2,9 @@
 
 Este es un sencillo proyecto creado con React que utiliza la api de Star Wars para mostrar algunos datos de cada pelicula de la saga.
 
+## Distribución
+![Diagrama](./componentes.jpeg)
+
 ## Dependencias
 
 * bootstrap: v4.0.0
