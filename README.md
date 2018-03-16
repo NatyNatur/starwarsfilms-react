@@ -21,3 +21,4 @@ Este es un sencillo proyecto creado con React que utiliza la api de Star Wars pa
 
 * Natalia Castro González
 * Andrea Díaz Galaz
+* Pamela Inalef Alvarado
