@@ -3,6 +3,9 @@ import { Container, Row, Col } from 'reactstrap';
 import StaticPage from './components/Static';
 import SearchedItems from './components/SearchedItems';
 import './App.css';
+import AnewHope from './components/SearchedItems/MovieData/AnewHope';
+import TheEmpireStrikesBack from './components/SearchedItems/MovieData/TheEmpireStrikesBack';
+import ReturnoftheJedi from './components/SearchedItems/MovieData/ReturnoftheJedi';
 
 class App extends Component {
   render() {
@@ -14,7 +17,8 @@ class App extends Component {
           <StaticPage> </StaticPage>
           </Col>
           <Col xs="8">
-          <SearchedItems> </SearchedItems>
+						<SearchedItems></SearchedItems>
+						<AnewHope />
           </Col>
         </Row>
         </Container>
