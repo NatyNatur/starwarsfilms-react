@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './styleData.css';
 
 const url = 'https://swapi.co/api/films/';
 const filmEpisode = '1';
@@ -32,10 +33,10 @@ class AnewHope extends Component {
 	render() {
 		return (
 			<div>
-					<h2>{this.state.title}</h2>
-					<p>Episode: {this.state.episode_id}</p>
-					<p>Director: {this.state.director}, Producer: {this.state.producer}</p>	
-					<p>{this.state.opening_crawl}</p>			
+					<h1 className="episodeTitle">{this.state.title}</h1>
+					<p className="episodeNum">Episode: <span className="dataSW">{this.state.episode_id}</span></p>
+					<p>Director: <span className="dataSW">{this.state.director}</span>, Producer: <span className="dataSW">{this.state.producer}</span></p>	
+					<p className="movieOpening">"{this.state.opening_crawl}"</p>			
 			</div>
 		);
 	}

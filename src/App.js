@@ -13,10 +13,10 @@ class App extends Component {
       <div className="App">
       <Container>
         <Row>
-          <Col xs="4">
+          <Col xs="12" sm="4">
           <StaticPage> </StaticPage>
           </Col>
-          <Col xs="8">
+          <Col xs="12" sm="8">
 						<SearchedItems></SearchedItems>
 						<AnewHope />
           </Col>

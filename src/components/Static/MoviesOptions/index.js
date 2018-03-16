@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 import { Button } from 'reactstrap';
 
+import './../styleStatic.css';
+
 
 class MovieOptions extends Component {
     render() {

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Starjedi';
+    font-weight: 400;
+    src: url('./../../../font/Starjedi.ttf'); 
+}
+
+.episodeTitle {
+    color: #FFE919;
+    font-family: Starjedi;
+}
+
+p {
+    font-family: monospace;
+    font-size: 1.3em;
+}
+
+.episodeNum {
+    text-transform: uppercase;
+}
+
+.movieOpening {
+    padding: 1em 0.5em;
+    text-align: justify;
+}
+
+.dataSW {
+    font-weight: bold;
+}
