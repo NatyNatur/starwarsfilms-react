@@ -36,8 +36,7 @@ class MovieDisplay extends Component {
         // aquí integrar datos de la api
         return (
             <div>
-                <p>Tarjeta de película</p>
-                <p>Descripción</p>
+							<p>Movie details</p>
             </div>
         )
 	}

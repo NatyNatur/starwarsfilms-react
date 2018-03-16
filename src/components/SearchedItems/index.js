@@ -7,7 +7,6 @@ class SearchedItems extends Component {
     render() {
         return (
             <div>
-                <h5> Las películas van acá </h5>
                 <MovieDisplay> </MovieDisplay>
             </div>
         )
